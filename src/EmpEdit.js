@@ -56,7 +56,7 @@ const EmpEdit = () => {
 
                     <div className="card" style={{"textAlign":"left"}}>
                         <div className="card-title">
-                            <h2>Employee Edit</h2>
+                            <h2>Contact Edit</h2>
                         </div>
                         <div className="card-body">
 

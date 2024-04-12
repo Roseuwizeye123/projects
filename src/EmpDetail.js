@@ -25,13 +25,13 @@ const EmpDetail = () => {
                 
             <div className="card row" style={{ "textAlign": "left" }}>
                 <div className="card-title">
-                    <h2>Employee Create</h2>
+                    <h2>Contact Create</h2>
                 </div>
                 <div className="card-body"></div>
 
                 {empdata &&
                     <div>
-                        <h2>The Employee name is : <b>{empdata.name}</b>  ({empdata.id})</h2>
+                        <h2>The Contact name is : <b>{empdata.name}</b>  ({empdata.id})</h2>
                         <h3>Contact Details</h3>
                         <h5>Email is : {empdata.email}</h5>
                         <h5>Phone is : {empdata.phone}</h5>
